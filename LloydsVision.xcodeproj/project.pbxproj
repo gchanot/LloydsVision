@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D247562B62805800D71D06 /* screen_recording.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 08D247542B62805800D71D06 /* screen_recording.mp4 */; };
+		08D247572B62805800D71D06 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D247552B62805800D71D06 /* screenshot.png */; };
+		08F0F2E32B5FFA0300FFC425 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 08F0F2E22B5FFA0300FFC425 /* RealityKitContent */; };
+		08F0F2E52B5FFA0300FFC425 /* LloydsVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F2E42B5FFA0300FFC425 /* LloydsVisionApp.swift */; };
+		08F0F2E72B5FFA0300FFC425 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F2E62B5FFA0300FFC425 /* ContentView.swift */; };
+		08F0F2E92B5FFA0300FFC425 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F2E82B5FFA0300FFC425 /* ImmersiveView.swift */; };
+		08F0F2EB2B5FFA0300FFC425 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 08F0F2EA2B5FFA0300FFC425 /* ImageBasedLighting.skybox */; };
+		08F0F2ED2B5FFA0500FFC425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F0F2EC2B5FFA0500FFC425 /* Assets.xcassets */; };
+		08F0F2F02B5FFA0500FFC425 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F0F2EF2B5FFA0500FFC425 /* Preview Assets.xcassets */; };
+		08F0F2FB2B5FFA0500FFC425 /* LloydsVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F2FA2B5FFA0500FFC425 /* LloydsVisionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08F0F2F72B5FFA0500FFC425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08F0F2D52B5FFA0300FFC425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08F0F2DC2B5FFA0300FFC425;
+			remoteInfo = LloydsVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D247542B62805800D71D06 /* screen_recording.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen_recording.mp4; sourceTree = "<group>"; };
+		08D247552B62805800D71D06 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		08F0F2DD2B5FFA0300FFC425 /* LloydsVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LloydsVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F0F2E12B5FFA0300FFC425 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		08F0F2E42B5FFA0300FFC425 /* LloydsVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LloydsVisionApp.swift; sourceTree = "<group>"; };
+		08F0F2E62B5FFA0300FFC425 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08F0F2E82B5FFA0300FFC425 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		08F0F2EA2B5FFA0300FFC425 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		08F0F2EC2B5FFA0500FFC425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08F0F2EF2B5FFA0500FFC425 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08F0F2F12B5FFA0500FFC425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F0F2F62B5FFA0500FFC425 /* LloydsVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LloydsVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F0F2FA2B5FFA0500FFC425 /* LloydsVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LloydsVisionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08F0F2DA2B5FFA0300FFC425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0F2E32B5FFA0300FFC425 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F0F2F32B5FFA0500FFC425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F0F2D42B5FFA0300FFC425 = {
+			isa = PBXGroup;
+			children = (
+				08D247542B62805800D71D06 /* screen_recording.mp4 */,
+				08D247552B62805800D71D06 /* screenshot.png */,
+				08F0F2DF2B5FFA0300FFC425 /* LloydsVision */,
+				08F0F2E02B5FFA0300FFC425 /* Packages */,
+				08F0F2F92B5FFA0500FFC425 /* LloydsVisionTests */,
+				08F0F2DE2B5FFA0300FFC425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08F0F2DE2B5FFA0300FFC425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F2DD2B5FFA0300FFC425 /* LloydsVision.app */,
+				08F0F2F62B5FFA0500FFC425 /* LloydsVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08F0F2DF2B5FFA0300FFC425 /* LloydsVision */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F2E42B5FFA0300FFC425 /* LloydsVisionApp.swift */,
+				08F0F2E62B5FFA0300FFC425 /* ContentView.swift */,
+				08F0F2E82B5FFA0300FFC425 /* ImmersiveView.swift */,
+				08F0F2EA2B5FFA0300FFC425 /* ImageBasedLighting.skybox */,
+				08F0F2EC2B5FFA0500FFC425 /* Assets.xcassets */,
+				08F0F2F12B5FFA0500FFC425 /* Info.plist */,
+				08F0F2EE2B5FFA0500FFC425 /* Preview Content */,
+			);
+			path = LloydsVision;
+			sourceTree = "<group>";
+		};
+		08F0F2E02B5FFA0300FFC425 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F2E12B5FFA0300FFC425 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		08F0F2EE2B5FFA0500FFC425 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F2EF2B5FFA0500FFC425 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08F0F2F92B5FFA0500FFC425 /* LloydsVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F2FA2B5FFA0500FFC425 /* LloydsVisionTests.swift */,
+			);
+			path = LloydsVisionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F0F2DC2B5FFA0300FFC425 /* LloydsVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F0F2FE2B5FFA0500FFC425 /* Build configuration list for PBXNativeTarget "LloydsVision" */;
+			buildPhases = (
+				08F0F2D92B5FFA0300FFC425 /* Sources */,
+				08F0F2DA2B5FFA0300FFC425 /* Frameworks */,
+				08F0F2DB2B5FFA0300FFC425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LloydsVision;
+			packageProductDependencies = (
+				08F0F2E22B5FFA0300FFC425 /* RealityKitContent */,
+			);
+			productName = LloydsVision;
+			productReference = 08F0F2DD2B5FFA0300FFC425 /* LloydsVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08F0F2F52B5FFA0500FFC425 /* LloydsVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F0F3012B5FFA0500FFC425 /* Build configuration list for PBXNativeTarget "LloydsVisionTests" */;
+			buildPhases = (
+				08F0F2F22B5FFA0500FFC425 /* Sources */,
+				08F0F2F32B5FFA0500FFC425 /* Frameworks */,
+				08F0F2F42B5FFA0500FFC425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F0F2F82B5FFA0500FFC425 /* PBXTargetDependency */,
+			);
+			name = LloydsVisionTests;
+			productName = LloydsVisionTests;
+			productReference = 08F0F2F62B5FFA0500FFC425 /* LloydsVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08F0F2D52B5FFA0300FFC425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					08F0F2DC2B5FFA0300FFC425 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					08F0F2F52B5FFA0500FFC425 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 08F0F2DC2B5FFA0300FFC425;
+					};
+				};
+			};
+			buildConfigurationList = 08F0F2D82B5FFA0300FFC425 /* Build configuration list for PBXProject "LloydsVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08F0F2D42B5FFA0300FFC425;
+			productRefGroup = 08F0F2DE2B5FFA0300FFC425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F0F2DC2B5FFA0300FFC425 /* LloydsVision */,
+				08F0F2F52B5FFA0500FFC425 /* LloydsVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F0F2DB2B5FFA0300FFC425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0F2ED2B5FFA0500FFC425 /* Assets.xcassets in Resources */,
+				08F0F2F02B5FFA0500FFC425 /* Preview Assets.xcassets in Resources */,
+				08F0F2EB2B5FFA0300FFC425 /* ImageBasedLighting.skybox in Resources */,
+				08D247562B62805800D71D06 /* screen_recording.mp4 in Resources */,
+				08D247572B62805800D71D06 /* screenshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F0F2F42B5FFA0500FFC425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F0F2D92B5FFA0300FFC425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0F2E72B5FFA0300FFC425 /* ContentView.swift in Sources */,
+				08F0F2E52B5FFA0300FFC425 /* LloydsVisionApp.swift in Sources */,
+				08F0F2E92B5FFA0300FFC425 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F0F2F22B5FFA0500FFC425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0F2FB2B5FFA0500FFC425 /* LloydsVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08F0F2F82B5FFA0500FFC425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08F0F2DC2B5FFA0300FFC425 /* LloydsVision */;
+			targetProxy = 08F0F2F72B5FFA0500FFC425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08F0F2FC2B5FFA0500FFC425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		08F0F2FD2B5FFA0500FFC425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		08F0F2FF2B5FFA0500FFC425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LloydsVision/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanot.LloydsVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		08F0F3002B5FFA0500FFC425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LloydsVision/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanot.LloydsVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		08F0F3022B5FFA0500FFC425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanot.LloydsVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LloydsVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LloydsVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		08F0F3032B5FFA0500FFC425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanot.LloydsVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LloydsVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LloydsVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F0F2D82B5FFA0300FFC425 /* Build configuration list for PBXProject "LloydsVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F0F2FC2B5FFA0500FFC425 /* Debug */,
+				08F0F2FD2B5FFA0500FFC425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F0F2FE2B5FFA0500FFC425 /* Build configuration list for PBXNativeTarget "LloydsVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F0F2FF2B5FFA0500FFC425 /* Debug */,
+				08F0F3002B5FFA0500FFC425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F0F3012B5FFA0500FFC425 /* Build configuration list for PBXNativeTarget "LloydsVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F0F3022B5FFA0500FFC425 /* Debug */,
+				08F0F3032B5FFA0500FFC425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08F0F2E22B5FFA0300FFC425 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08F0F2D52B5FFA0300FFC425 /* Project object */;
+}
